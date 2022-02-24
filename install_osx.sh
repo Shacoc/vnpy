@@ -3,7 +3,7 @@
 python=$1
 shift 1
 
-[[ -z $python ]] && python=python
+[[ -z $python ]] && python=python3
 
 $python -m pip install --upgrade pip wheel
 
